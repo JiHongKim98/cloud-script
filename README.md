@@ -1,4 +1,5 @@
 # aws-script
-AWS에서 사용할 스크립트 모음
+Collection of scripts for use on AWS when creating EC2
 
- - [EC2 Swap Memory 설정(2GB)](/swap-memory.sh)
+ - [EC2 Swap Memory Configuration(2GB)](/swap-memory.sh)
+ - [EC2 Docker Install Script](/docker-install.sh)
