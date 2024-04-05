@@ -13,4 +13,4 @@ sudo swapon /swapfile
 sudo swapon -s
 
 # 재부팅시에도 스왑 파일 적용
-echo '/swapfile swap swap defaults 0 0' >> /etc/fstab
+echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
