@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  spring-backend:
+    container_name: spring-backend-green
+    image: # {docker hub repository name}:{image tag}
+    ports:
+      - "8082:8080" # green port
+    networks:
+      - backend-network # docker network 이름
+    volumes:
+      - logs_volume:/app/logs # log file 이 저장될 위치
+
+networks:
+  backend-network:
+    external: true
+
+volumes:
+  logs_volume:
+    external: true
