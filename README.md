@@ -1,5 +1,8 @@
-# aws-script
-Collection of scripts for use on AWS when creating EC2
+# cloud-script
 
- - [EC2 Swap Memory Configuration(2GB)](/swap-memory.sh)
- - [EC2 Docker Install Script](/docker-install.sh)
+Collection of scripts used when using the cloud
+
+- [docker and docker-compose install script](/docker-install)
+- [grafana and loki docker compose files](/monitoring)
+- [swap memory configuration](/swap-memory)
+- [blue/green deploy script and docker-compose files](/deploy)
