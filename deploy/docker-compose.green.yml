@@ -2,10 +2,10 @@ version: "3"
 
 services:
   spring-backend:
-    container_name: spring-backend-blue
+    container_name: spring-backend-green
     image: # {docker hub repository name}:{image tag}
     ports:
-      - "8081:8080" # blue port
+      - "8082:8080" # green port
     networks:
       - backend-network # docker network 이름
     volumes:
