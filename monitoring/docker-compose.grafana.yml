@@ -1,0 +1,19 @@
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - backend-network
+
+networks:
+  backend-network:
+    external: true
+
+volumes:
+  grafana-storage:
