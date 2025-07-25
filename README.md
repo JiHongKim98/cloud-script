@@ -7,3 +7,4 @@ Collection of scripts used when using the cloud
 - [prometheus docker-compose files](/monitoring/)
 - [swap memory configuration](/swap-memory)
 - [blue/green deploy script and docker-compose files](/deploy)
+- [K3S utils](/k3s-utils)
